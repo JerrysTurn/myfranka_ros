@@ -13,3 +13,4 @@ All packages of `franka_ros` are licensed under the [Apache 2.0 license][apache-
 [fci-docs]: https://frankaemika.github.io/docs
 
 ## Test for pull request
+# Change in local repository
