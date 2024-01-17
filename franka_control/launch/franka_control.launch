@@ -1,4 +1,6 @@
 <?xml version="1.0" ?>
+
+<!-- Start launch file -->
 <launch>
   <arg name="robot_ip" />
   <arg name="robot" default="panda" doc="choose your robot. Possible values: [panda, fr3]"/>
