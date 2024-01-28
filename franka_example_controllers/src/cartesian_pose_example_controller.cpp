@@ -24,7 +24,7 @@ bool CartesianPoseExampleController::init(hardware_interface::RobotHW* robot_har
         "interface from hardware");
     return false;
   }
-
+  // get rosparameter for control
   std::string arm_id;
   if (!node_handle.getParam("arm_id", arm_id)) {
     ROS_ERROR("CartesianPoseExampleController: Could not get parameter arm_id");
